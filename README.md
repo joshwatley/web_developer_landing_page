@@ -1,5 +1,7 @@
 # Freelance Web Developer Email List Landing Page
 
+Live Link : https://joshwatley.github.io/web_developer_landing_page/index.html
+
 ## Table of contents
 * [Overview](#overview)
 * [Technologies](#technologies)
