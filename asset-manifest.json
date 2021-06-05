@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/web_developer_landing_page/static/css/main.2370307a.chunk.css",
+    "main.css": "/web_developer_landing_page/static/css/main.1c7341cd.chunk.css",
     "main.js": "/web_developer_landing_page/static/js/main.5f6f007a.chunk.js",
     "main.js.map": "/web_developer_landing_page/static/js/main.5f6f007a.chunk.js.map",
     "runtime-main.js": "/web_developer_landing_page/static/js/runtime-main.e8998634.js",
@@ -10,14 +10,14 @@
     "static/js/3.35cc3ab5.chunk.js": "/web_developer_landing_page/static/js/3.35cc3ab5.chunk.js",
     "static/js/3.35cc3ab5.chunk.js.map": "/web_developer_landing_page/static/js/3.35cc3ab5.chunk.js.map",
     "index.html": "/web_developer_landing_page/index.html",
-    "static/css/main.2370307a.chunk.css.map": "/web_developer_landing_page/static/css/main.2370307a.chunk.css.map",
+    "static/css/main.1c7341cd.chunk.css.map": "/web_developer_landing_page/static/css/main.1c7341cd.chunk.css.map",
     "static/js/2.6ec1e0bd.chunk.js.LICENSE.txt": "/web_developer_landing_page/static/js/2.6ec1e0bd.chunk.js.LICENSE.txt",
     "static/media/Hero.css": "/web_developer_landing_page/static/media/techbackground.60684b6d.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.e8998634.js",
     "static/js/2.6ec1e0bd.chunk.js",
-    "static/css/main.2370307a.chunk.css",
+    "static/css/main.1c7341cd.chunk.css",
     "static/js/main.5f6f007a.chunk.js"
   ]
 }
