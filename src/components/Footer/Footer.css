@@ -1,0 +1,11 @@
+.FooterWrapper{
+    display: flex;
+    background-color: black;
+    height: 89px;
+    justify-content: center;
+    align-items: center;
+}
+
+.FooterWrapper > p {
+font-size: 1rem;
+}

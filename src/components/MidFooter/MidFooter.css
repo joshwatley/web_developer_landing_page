@@ -1,0 +1,55 @@
+.MidFooterWrapper{
+    display: flex;
+    height: 240px;
+    width: 100%;
+    background: #E4E4E5;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1400px){
+    .TrustElement{
+        margin-left: 20px !important;
+    }
+
+
+}
+
+.TrustElement{
+    display: inline-block;
+    /* border: 1px solid black; */
+    margin-left: 50px;
+}
+
+.TrustLogo{
+    float:left;
+    height:130px;
+    width: 130px;
+    margin: 10px;
+    background-color:rgb(238, 209, 209);
+    border-radius: 65px;
+}
+.TrustStars{
+    /* border: 1px solid black; */
+
+}
+
+.TrustTitle > h3{
+    margin-left: 5px;
+    font-size: 1rem;
+    color: black;
+    /* border: 1px solid black; */
+}
+.TrustText{
+    
+    /* border: 1px solid red; */
+
+}
+
+.TrustText > p{
+    margin-left: 5px;
+    font-size: 1rem;
+    /* border: 1px solid black; */
+    color: black;
+}
+

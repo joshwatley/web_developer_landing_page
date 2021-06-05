@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    color: white;
+    overscroll-behavior-y: none;
+    overflow-x: hidden;
+}
+
+.HeroWrapper{
+    height: 900px;
+    display: flex;
+    /* background-color: darkslategrey; */
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../../images/techbackground.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.centerT{
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+@media screen and (max-width: 1400px){
+    .HeroWrapper{
+        height: 1600px;
+        overflow-x: hidden;
+    }
+    .centerT{
+        display: inline-block;
+        justify-content: space-around;
+        
+    }
+
+    .TextFormatter{
+        text-align: center !important;
+        width: 800px !important; 
+    }
+
+}
+
+
+@media screen and (max-width: 900px){
+    .TextFormatter{
+        width:400px !important; 
+    }
+    .HeroWrapper{
+        height: 2000px;
+        overflow-x: hidden;
+    }
+}
+
+
+    
+
+.Hero-Text-Wrapper{
+    flex: 1;
+    text-align: center;
+    padding: 50px;
+    margin: auto;
+}
+
+.TextFormatter{
+    right: 0%;
+    width: 800px;
+    text-align: left;
+    margin: auto;
+}
+.TextFormatter > h1{
+    font-size: 4rem;
+}
+
+.TextFormatter > h2{
+    font-size: 2rem;
+    margin-bottom: 4rem;
+}
+
+.TextFormatter > h3{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.TextFormatter > p{
+    font-size: 1.2rem;
+    font-weight:300;
+    margin-bottom: 1rem;
+}
+
+.boldtext{
+    font-weight: bold;
+}
+
+
+.Hero-Form-Wrapper{
+    height:800px;
+    width: 450px;
+    flex: 1;
+    margin: auto;
+    position:relative;
+    z-index: 1;
+}
+.Hero-Form-Wrapper::after{
+    content: "";
+    background-color: whitesmoke;
+    border-radius: 25px;
+    opacity: 60%;
+    width:450px;
+    top: 0;
+    margin: 0 auto;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    z-index:-1;
+}
+
+.ThankYouForm{
+    display: none;
+    width: 400px;
+    padding: 10px;
+    padding-top: 20px;
+    text-align: left;
+    margin: 0 auto;
+    color: black;
+
+}
+
+.ThankYouForm > h1{
+    color: black;
+
+}
+.ThankYouForm > h2 {
+    margin-top: 2rem;
+    color: black;
+
+}
+
+.ThankYouForm > p{
+    margin-top: 2rem;
+    color: black;
+
+}
+
+.ThankYouForm > p > a{
+    color: black;
+
+}
+
+.Hero-Contact-Form{
+    width: 400px;
+    padding: 10px;
+    padding-top: 20px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+
+
+.asterix{
+    color:red;
+}
+
+
+.Hero-Contact-Form > h2 {
+    color: black;
+}
+
+.Hero-Contact-Form > button {
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #FF8484;
+    margin-top: 40px;
+    cursor: pointer;
+
+}
+
+.Hero-Contact-Form > button:hover{
+    background-color: #f4afaf;
+}
+
+label{
+    color: black;
+    float: left;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 4px;
+}
+input{
+    display: block;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 400px;
+    padding: 2px;
+    font-size: 1.2rem;;
+    z-index: 100 !important;
+    margin: auto;
+    color: black;
+}
+ 
+textarea{
+    display: block;
+    border: none;
+    border-radius: 5px;
+    height: 90px;
+    width: 400px;
+    padding: 2px;
+    font-size: 1.2rem;;
+    z-index: 100 !important;
+    margin: auto;
+    color: black;
+    resize: none;
+}
